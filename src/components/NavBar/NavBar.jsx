@@ -3,7 +3,7 @@ import "./NavBar.css"
 export default function NavBar(){
     return(
         <header className="header">
-            <img className="logo" src="https://img2.freepng.es/20180330/fce/kisspng-logo-house-roof-clip-art-roof-5abe8cc767b636.4561961215224373194248.jpg" />
+            <img className="logo" src="https://i.ibb.co/yf6bhG6/Logo-Casa-Def.png" />
             <ul className="menu">
                 <li>Acerca de Mi</li>
                 <li>Mision</li>
