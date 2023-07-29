@@ -27,26 +27,25 @@ main section img {
 } 
 
 .main-pictures{
-  /* display: flex; */
+  /* display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 
 main section .pictures img{
   width: 100%;
   height: 40vh;
-  /* display: flex; */
+  display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .video-container {
-    /* display: flex; */
-    /* flex-direction: column; */
-    width: 33%;
-    height: 100vh;
-    gap:60px;
-    /* justify-content: center; */
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     padding-bottom: 56.25%; /* Proporción 16:9 (para videos de YouTube) */
     /* overflow: hidden; */
@@ -56,7 +55,7 @@ main section .pictures img{
     position: relative;
     top: 0;
     left: 0;
-    width: 30%;
+    width: 100%;
     height: 30%;
   }
   
