@@ -1,36 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Righteous&display=swap');
 
 .main-container{
+  background-image: url("https://scotiabankfiles.azureedge.net/scotiabank-colombia/Colpatria/imagenes/fiduciaria/fiducia-inmobiliaria.jpg");
   width: 100%;
   display: flex;
   justify-content:space-around;
 }
 
 h2{
+  display: flex;
+  justify-content: center;
   font-family: 'Oswald', sans-serif;
   color: gray;
+  
 }
 
 .hombre{
   width: 25%;
-  height: 600px;
+  height: 100px;
   /* display: flex; */
   justify-content:center;
-  background-color: red;
+  
 }
 
 main section img {
-  width: 200px;
-  height: 600px;
+  width: 600px;
+  height: 450px;
   display: flex;
-  
+    
 } 
 
 .main-pictures{
-  /* display: flex;
+  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center; */
+  gap:20px;
 }
 
 main section .pictures img{
@@ -39,6 +42,7 @@ main section .pictures img{
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 20px;
 }
 
 .video-container {
@@ -60,3 +64,39 @@ main section .pictures img{
   }
   
   
+
+  /* NavBar.css */
+
+/* ... tus estilos anteriores ... */
+
+/* Estilos para la ventana modal */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo con opacidad */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  width: 300px;
+  height: 380px;
+  background-color:rgba(243, 230, 230, 0.9);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para el contenido con opacidad */
+.header {
+  position: relative;
+}
+
+.modal-open .header {
+  opacity: 0.9; /* Opacidad del 50% para el contenido */
+  pointer-events: none; /* Evitar interacción con los elementos detrás de la ventana modal */
+}

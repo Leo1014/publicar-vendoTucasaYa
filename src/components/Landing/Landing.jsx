@@ -4,12 +4,13 @@ export default function Landing(){
     return(
         <main className="main-container">
             <section className="hombre">
-                <img className="man" src="https://i.ibb.co/0qdCkmq/Whats-App-Image-2023-07-29-at-3-54-25-PM-removebg-preview.png" alt="Antonio Martinez" />
+                <img className="man" src="https://i.ibb.co/dbWZTgD/hombre-se-alando1-removebg-preview.png" alt="hombre" />
             </section>
             <section className="main-pictures">
                 <h2>Galeria de Imágenes</h2>
                 <section className="pictures">
                     <img src="https://staticw.s3.amazonaws.com/inmuebles/gr226751020210222043001.jpeg" alt="casa" />
+                    <img src="https://img.resemmedia.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzLzFkNDA5NmRlLWY5MzYtNGJiYS05Zjg0LTA4ZGRlMGM3MmEzZS9hODRiYzBiYS1mNzg5LTQ4YTQtYjQyZS1jNGJmZWE3NjI1NWEuanBnIiwiYnJhbmQiOiJSRVNFTSIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6MzU0LCJoZWlnaHQiOjI0MCwiZml0IjoiY292ZXIifX19"/>
                 </section>
             </section>
             <section className="video-container">
