@@ -35,3 +35,42 @@ ul {
     font-weight: bold;
     color: rgb(99, 97, 97);
 }
+
+.modal-overlay{
+    width: 70px;
+    height: 100px;
+    display: flex;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+
+}
+
+.modal img{
+    width: 110px;
+    height: 200px;
+}
+
+
+.modal-overlay .image{
+    display: flex;
+    justify-content: center;
+}
+
+.info .button{
+    display: flex;
+    justify-content: right;
+    padding: 10px;
+    /* align-items: center; */
+}
+
+.info .button button{
+    display: flex;
+    justify-content: right;
+    padding: 5px;
+    border-radius:8px;
+    /* align-items: center; */
+}

@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Righteous&display=swap');
 
 .main-container{
-  background-image: url("https://scotiabankfiles.azureedge.net/scotiabank-colombia/Colpatria/imagenes/fiduciaria/fiducia-inmobiliaria.jpg");
+  background-image: url("https://img.freepik.com/vector-gratis/fondo-semitono-azul-blanco_53876-99003.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; /* Esto hará que la imagen ocupe todo el espacio disponible */
   width: 100%;
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
 }
 
 h2{
@@ -20,6 +22,7 @@ h2{
   height: 100px;
   /* display: flex; */
   justify-content:center;
+  margin-right: 40px;
   
 }
 
@@ -83,10 +86,10 @@ main section .pictures img{
 }
 
 .modal {
-  width: 300px;
-  height: 380px;
+  width: 200px;
+  height: 490px;
   background-color:rgba(243, 230, 230, 0.9);
-  padding: 20px;
+  padding: 10px;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }

@@ -47,9 +47,16 @@ export default function NavBar() {
       {isModalOpen && (
         <div className="modal-overlay">
           <div className="modal">
-            <h2>Antonio Martinez</h2>
-            <p>lorem ipsum lorem ipsumlorem lorem ipsumlorem ilorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumvlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumlorem ipsumpsumlorem ipsumlorem ipsumlorem ipsumipsum</p>
-            <button onClick={closeModal}>Cerrar</button>
+            <div className="image">
+              <img src="https://i.ibb.co/mbFJ2MV/Antonio-Martinez.png" alt="Antonio" />
+            </div>
+            <div className="info">
+              <h2>Antonio Martínez</h2>
+              <p>Con más de 14 años de experiencia en trámites de vehículos a nivel nacional, ahora dando a conocer los servicios en finca raíz.</p>
+              <div className="button">
+                <button onClick={closeModal}>Cerrar</button>
+              </div>
+            </div>
           </div>
         </div>
       )}
