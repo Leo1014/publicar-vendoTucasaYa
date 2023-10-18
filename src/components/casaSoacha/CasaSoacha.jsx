@@ -4,7 +4,7 @@ import "./casaSoacha.css"
 export default function CasaSoacha(){
     return(
         <div className="container">
-            <h1>Casa de Tres Pisos Totalmente Terminada</h1>
+            <h1>Casa de Tres Pisos Totalmente Terminada 104 mts cuadrados</h1>
             <h2>Garaje automovil - patio de ropa con teja corrediza</h2>
             <div className="description">
                 <p>Primer piso: tres alcobas - Baño - Cocina - Patio de ropas teja corrediza</p>
