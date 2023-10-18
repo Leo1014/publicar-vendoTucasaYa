@@ -1,10 +1,11 @@
 import "./Landing.css"
 
+
 export default function Landing(){
     return(
         <main>
-            <section>
-                
+                                        
+            <section>                
                 <div className="man-img">
                     <div className="man">
                         <img src="https://i.ibb.co/dbWZTgD/hombre-se-alando1-removebg-preview.png" alt="hombre" />
@@ -14,7 +15,7 @@ export default function Landing(){
                     </div>
                 </div>
                 <div className="titulo">
-                    <h2>Casa Via Mesitas a la Mesa 1Km encintado  $125.000.000</h2>
+                    <h2>Casa Via Mesitas a la Mesa 1Km encintado 65 metros cuadrados $125.000.000</h2>
                     <div className="anuncio">
                         <p>Casa de dos pisos:</p>
                         <ul>
