@@ -24,13 +24,14 @@ body{
 
 .anuncio{
   margin:auto;
-  border: 2px solid rgba(0, 0, 0, 0.829);
-  width: 350px;
+  background-color: rgb(183, 218, 238);
+  width: 450px;
+  height: 170px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: rgba(12, 137, 240, 0.8);
+  color: rgba(0, 0, 0, 0.856);
   font-size: 20px;
   font-weight:bolder;
   padding: auto;
@@ -43,8 +44,17 @@ body{
   margin: 0; /* Eliminar el espacio externo predeterminado de la lista */
 }
 
+.landing{
+  margin-bottom: 16px;
+  color: rgb(255, 19, 19);
+  font-size: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 .anuncio li {
   list-style: none; /* Eliminar las viñetas de la lista */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 2px;
 }
 
 
@@ -92,7 +102,7 @@ h2{
 
 .videos{
   height: 400px;
-  height: 600px;
+  height: 400px;
   display: flex;
   padding: 50px;
   gap: 40px;

@@ -4,6 +4,8 @@ import "./slider.css"
 import CasaSoacha from "./components/casaSoacha/CasaSoacha";
 import NavBar from "./components/NavBar/NavBar"
 import Landing from './components/Landing/Landing'
+import Banner from "./components/Banner/Banner";
+import Footer from "./components/Footer/Footer";
 
 import image_1 from "../src/slides/fachada.jpeg"
 import image_2 from "../src/slides/1.jpeg"
@@ -62,8 +64,10 @@ function App() {
           <img src={image_10} alt="" width={400} height={400} />
         </div>
       </Slider>
+      <Banner/>
   
       <Landing />
+      <Footer />
       
     </div>
   )

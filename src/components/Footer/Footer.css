@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+
+.footerContainer{
+    width: 100%;
+    height: 130px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(7, 8, 10);
+    padding: 16px;
+}
+
+.footerContainer .copyRight{
+    color: white;
+    height: 20px;
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+.footerContainer .whatsApp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+}
+
+.footerContainer .mail{
+    font-size: 32px;
+    text-align: center;
+    margin-right: 6px;
+}
+
+.footerContainer p{
+    font-family: 'Aclonica', sans-serif;
+    font-size: 20px;
+    color: hsla(240, 25%, 92%, 0.966);
+}
+
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+
+}
+
+.footerContainer .logoW{
+    width: 25px;
+    height: 25px;
+    padding-right:8px ;
+}
+
+.footerContainer .handHelp{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footerContainer .hand{
+    color: white;
+}

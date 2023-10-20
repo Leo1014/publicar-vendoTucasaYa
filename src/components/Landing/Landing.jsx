@@ -15,14 +15,14 @@ export default function Landing(){
                     </div>
                 </div>
                 <div className="titulo">
-                    <h2>Casa Via Mesitas a la Mesa 1Km encintado 65 metros cuadrados $125.000.000</h2>
+                    <h2>Casa Vía Mesitas a la Mesa 1Km encintado 65 metros cuadrados $125.000.000</h2>
                     <div className="anuncio">
-                        <p>Casa de dos pisos:</p>
+                        <p className="landing">Casa de dos Pisos:</p>
                         <ul>
                             <li>Cocina comedor   </li>
                             <li>Dos alcobas una sencilla otra doble</li>
-                            <li>Sotano:</li>
-                            <li>Dos habitaciones baño y patio</li>
+                            <li>Sótano: Dos habitaciones baño y patio</li>
+                            <li></li>
                             <li></li>
                         </ul>
                     </div>
