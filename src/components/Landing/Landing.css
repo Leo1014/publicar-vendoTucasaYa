@@ -180,7 +180,7 @@ main section .pictures img{
 
 .modal {
   width: 200px;
-  height: 490px;
+  height: 440px;
   background-color:rgba(243, 230, 230, 0.9);
   padding: 10px;
   border-radius: 5px;
@@ -195,4 +195,163 @@ main section .pictures img{
 .modal-open .header {
   opacity: 0.9; /* Opacidad del 50% para el contenido */
   pointer-events: none; /* Evitar interacción con los elementos detrás de la ventana modal */
+}
+.man-img{
+  display: flex;
+  justify-content: center;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+@media only screen and (max-width:800px){
+  
+  .man-img{
+    display: flex;
+    justify-content: center;
+    margin-right: 0px;
+    margin-left: 70px;
+  }
+  
+  .titulo h2{
+    font-size: 20px;
+    color: red;
+  }
+  
+  .anuncio{
+    margin:auto;
+    background-color: rgb(183, 218, 238);
+    width: 400px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.856);
+    font-size: 16px;
+    font-weight:bolder;
+    padding: auto;
+  }
+  
+  
+  .anuncio ul {
+    text-align: left;
+    padding: 0; /* Eliminar el espacio interno predeterminado de la lista */
+    margin: 0; /* Eliminar el espacio externo predeterminado de la lista */
+  }
+  
+  .landing{
+    margin-bottom: 16px;
+    color: rgb(255, 19, 19);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .anuncio li {
+    list-style: none; /* Eliminar las viñetas de la lista */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 2px;
+  }
+  
+  
+  .gallery{
+    display: flex;
+    justify-content: center;
+    padding:12px;
+  }
+  
+  .main-image img{
+    border-radius: 10px;
+    border: 4px solid black;
+    width: 100%;
+    /* object-fit: cover; */
+    margin-bottom: 10px;
+    margin-top: 16px;
+  }
+  
+  .secondary-images{
+    display: flex;
+    overflow-y: auto;
+  }
+  
+  .secondary-images img{
+    width: 100%;
+    object-fit: cover;
+    width: 300px;
+    height: 150px;
+    margin-right: 10px;
+  }
+  
+    
+  .man-videos{
+    display: flex;
+    height: 200px;
+  }
+  
+  h2{
+    display: flex;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    color: gray;
+  }
+  
+  .videos{
+    height: 400px;
+    display: flex;
+    padding: 40px;
+    gap: 30px;
+  }
+    
+  
+  .hombre{
+    width: 25%;
+    height: 70px;
+    display: flex;
+    justify-content:center;
+    margin-right: 30px;
+    
+  }
+  
+  main section img {
+    width: 250px;
+    height: 200px;
+    display: flex;
+      
+  } 
+  
+  .main-pictures{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+  }
+  
+  main section .pictures img{
+    width: 50%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .video-container {
+      gap: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 56.25%; 
+      ;
+      /* Proporción 16:9 (para videos de YouTube) */
+      /* overflow: hidden; */
+    }
+    
+    .video-container iframe {
+      position: relative;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 30%;
+    }
+    
+  
 }
